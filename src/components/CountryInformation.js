@@ -43,7 +43,7 @@ function CountryInformation() {
                 <input
                     type="text"
                     id="countryName"
-                    placeholder="Enter a country-name here..."
+                    placeholder="Enter a country name here..."
                     value={countryName}
                     onChange={(e) => setCountryName(e.target.value)}
                 />
